@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="help.css">    
         <h1>Форма для підтримки</h1>
         <h4>Телефон для підтримки: +38099000000</h4>    
     </head>
+    <div class="bgcolor">
+        
+    </div>
     <body>
         <article>
-            <select>
+            <select class="typehelp">
                 <option>
                     Підтримка
                 </option>
@@ -14,21 +18,24 @@
                     Побажання
                 </option>
                 <option>
-                    скарга
+                    Скарга
                 </option>
             </select>
-            <input type="text" placeholder="Введіть тему побажання/скарги/підтримки"><label> 
+            <input class="helpthema" type="text" placeholder="Введіть тему побажання/скарги/підтримки"><label> 
             
          
         </article>
         <article>
-            <input type="text" placeholder="Введіть текст побажання/скарги/підтримки"><label> 
+            <input class="helptext" type="text" placeholder="Введіть текст побажання/скарги/підтримки" class=""><label> 
+        </article>
+        <div class="inputFile">
+            <p >Та/або вставте файл</p>
+        </div>
+        <article></article>
+            <input class="helpfile" type="file"></input>
         </article>
         <article>
-            <input type="file"></input>
-        </article>
-        <article>
-            <select>
+            <select class="typehofhelp">
                 <option>
                     Лист
                 </option>
@@ -39,6 +46,9 @@
                     e-mail
                 </option>
             </select>
+        </article>
+        <article>
+            <button>Відправити</button>
         </article>
     </body>
 </html>

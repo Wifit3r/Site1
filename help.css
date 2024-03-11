@@ -1,0 +1,68 @@
+html{    
+    font-family:'Courier New', Courier, monospace ;
+    text-align: center;
+    z-index: 2;
+}
+.bgcolor{
+    position: absolute;
+    left: 50%;
+    margin-left: -22.5%;
+    width: 45%;
+    min-width: 20px;
+    background-color: rgb(139, 207, 166);
+    height: 400px;
+    z-index: -1;
+    margin-top: -15px;
+    border-radius: 23px;
+}
+.typehelp{
+    width:120px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.helpthema{
+    margin: 3px;
+    height: 25px;
+    width: 20%;
+    min-width: 150px;
+    border-radius: 10px;
+}
+.helptext{
+    border-radius: 15px;
+    width: 40%;
+    height: 130px;
+    max-width: 500px;
+    min-width: 200px;
+}
+button{
+    border: 0;
+    margin-top: 13px;
+    width: 8%;
+    min-width: 85px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:gray;
+    border-radius: 10px;
+}
+button:active{
+    background-color:rgb(106, 106, 106);
+}
+.typehofhelp{
+    height: 24px;
+    width: 85px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inputFile{
+    text-align: center;
+}
+.helpfile{
+    border-radius: 10px;
+    background-color: rgb(75, 144, 121);
+    cursor: pointer;
+}
